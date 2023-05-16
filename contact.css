@@ -110,9 +110,14 @@ body {
         overflow: hidden;
         min-height: 150vh;
         overflow-y: hidden;
+        scale: 100%;
     }
     html, body {
         max-width: 100%;
         overflow-x: hidden;
+    }
+
+    .form-box {
+        scale: 95%;
     }
 }
