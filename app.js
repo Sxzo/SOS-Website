@@ -17,10 +17,10 @@ if (isMobileDevice()) {
     const hiddenSlideListElements = document.querySelectorAll(".hiddenlist")
     hiddenSlideListElements.forEach((el) => el.classList.remove("hiddenlist"))
 } else {
-    
+    console.log("User is not on a mobile device");
 }
 
-console.log("User is not on a mobile device");
+
     const opacityObserver = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             // console.log(entry)
