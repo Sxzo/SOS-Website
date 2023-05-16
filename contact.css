@@ -23,6 +23,7 @@ body {
     height: 100px;
     display: flex;
     justify-content: center;
+    transform: translateY(50px);
 }
 
 .center-redirect {

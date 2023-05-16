@@ -331,20 +331,234 @@ a {
     body {
         background-color: rgba(110, 110, 110, 0.315);
         background-image: url("HD-wallpaper-dream-house-luxury.jpg");
-        background-size: 100vw 100vh;
+        background-size: 100% 100vh;
         background-repeat: no-repeat;
         overflow-y: scroll;
         overflow-x: hidden;
         max-width: 100%;
+        scroll-behavior: smooth
+    }
+    .right-redirect, .left-redirect {
+        display: none;
     }
 
+    .center-redirect {
+        white-space: nowrap;
+        font-size: 40px;
+        font-weight: 500;
+        padding: 0 15px;
+        height: 100%;
+        width: 100vw;
+        transform: translateY(25px);
+    }
     html, body {
         max-width: 100%;
         overflow-x: hidden;
     }
 
-    .navbar {
-        scale: 60%;
+    .sub1 {
+        width: 100vw;
+        transform: translateY(88vh);
+        height: 300px;
+        background-color: white;
+    }
+    
+    .block1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .box {
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .block1-header {
+        font-size: 50px;
+        transform: translateY(10%) translateX(30%);
+    }
+    .block1-paragraph {
+        text-align: center;
+        width: 500px;
+        transform: translateY(45%);
+        display: none;
+        /* font-size: 20px; */
+    }
+    
+    .sub2 {
+        width: 100vw;
+        transform: translateY(88vh);
+        height: 300px;
+        background-color: rgb(248, 248, 248);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .check {
+        display: none;
+    }
+    
+    .block2-header {
+        scale: 120%;
+        line-height: 65px;
+        transform: translateY(0px);
+        font-size: 30px;
+        width: 300px;
+        text-align: center;
+        overflow-wrap: break-word;
+    }
+    
+    .sub3 {
+        background-color: white;
+        width: 100vw;
+        transform: translateY(88vh);
+        height: 800px;
+    }
+    
+    .block3-header {
+        font-size: 50px;
+        width: 100vw;
+        text-align: center;
+        /* line-height: 250px; */
+        transform: translateY(50px)
+    }
+    
+    .block3-list {
+        font-size: 20px;
+        transform: translateY(80px) translateX(-45px);
+        width: 100vw;
+        text-align: center;
+        line-height: 40px;
+    }
+    
+    .sub4 {
+        background-color: rgb(248, 248, 248);
+        width: 100vw;
+        transform: translateY(88vh);
+        height: 300px;
+    }
+    
+    .block4-header {
+        scale: 75%;
+        transform: translateY(60px);
+        font-size: 50px;
+        width: 100vw;
+        text-align: center;
+    }
+    .block4-list {
+        scale: 75%;
+        width: 100vw;
+        text-align: center;
+    }
+    
+    .sub5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 100vw;
+        transform: translateY(88vh);
+        height: 250px;
+    }
+    
+    .block5-header {
+        transform: translateY(25px);
+        font-size: 35px;
+        width: 100vw;
+        text-align: center;
+    }
+    
+    .contact-button {
+        cursor: pointer;
+        width: 250px;
+        height: 85px;
+        border-radius: 15px;
+        background-color: rgb(31, 120, 253);
+        color: white;
+        border: none;
+        font-size: 25px;
+        font-weight: bold;
+        box-shadow: 0 0 4px 0 black;
+        transition: 0.1s ease-in;
+        /* transform: translateY(75px) translateX(850px); */
+    }
+    
+    .contact-button:hover {
+        box-shadow: 0 0 8px 0 black;
+    }
+    
+    .sub6 {
+        /* display: none; */
+        width: 100vw;
+        transform: translateY(88vh);
+        height: 300px;
+        background-color: rgb(248, 248, 248);
+        text-align: center;
+    }
+
+    .block6-header {
+        font-size: 50px;
+        transform: translateY(10%) translateX(18%);
+    }
+    
+    .sub7 {
+        background-color: white;
+        width: 100vw;
+        transform: translateY(88vh);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .block7-list {
+        font-size: 17.5px;
+        /* transform: translateY(175px); */
+        width: 80vw;
+        text-align: center;
+        line-height: 30px;
+    }
+    
+    .block7-header { 
+        font-size: 50px;
+        width: 100vw;
+        text-align: center;
+        transform: translateY(-50px);
+        /* line-height: 250px; */
+    }
+    
+    .star-align {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .hiddeno {
+
+    }
+    
+    .showo {
+
+    }
+    
+    .hiddens {
+
+    }
+    
+    .shows {
+
+    }
+    
+    .hiddenlist {
+
+    }
+    
+    .showlist {
+
     }
 }
 
