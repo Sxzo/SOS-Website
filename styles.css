@@ -11,9 +11,10 @@
 body {
     background-color: rgba(110, 110, 110, 0.315);
     background-image: url("house.jpg");
-    background-size: 100%;
+    background-size: 100vw 100vh;
     background-repeat: no-repeat;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -41,17 +42,17 @@ a {
     padding: 0 0px;
 }
 
-li {
-    /* margin: 0 100px; Add some margin between each list item */
-}
-
 .center-redirect, .left-redirect, .right-redirect {
     white-space: nowrap;
     font-size: 25px;
     font-weight: 400;
     padding: 0 15px;
     height: 100%;
-    width: 33.3333%;
+    width: 33.3333vw;
+}
+
+.center-redirect:hover, .left-redirect:hover, .right-redirect:hover {
+    color: rgb(231, 238, 255)
 }
 
 .center-redirect {
@@ -61,23 +62,12 @@ li {
     line-height: 115px;
 }
 
-.menu-bar {
-    cursor: pointer;
-    font-size: 30px;
-    color: black;
-    text-decoration: none; /* Remove the underline from the link */
-}
 
 .sub1 {
-    width: 100%;
+    width: 100vw;
     transform: translateY(91vh);
     height: 300px;
     background-color: white;
-
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center; */
 }
 
 .block1 {
@@ -90,11 +80,9 @@ li {
     padding: 50px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .block1-header {
-    /* width: 50%; */
     font-size: 50px;
     transform: translateY(50%);
 }
@@ -102,10 +90,11 @@ li {
     text-align: center;
     width: 500px;
     transform: translateY(45%);
+    /* font-size: 20px; */
 }
 
 .sub2 {
-    width: 100%;
+    width: 100vw;
     transform: translateY(91vh);
     height: 300px;
     background-color: rgb(248, 248, 248);
@@ -113,42 +102,44 @@ li {
 
 .block2-header {
     font-size: 50px;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     line-height: 300px;
 }
 
 .block2-text {
     font-size: 50px;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     line-height: 300px;
 }
 
 .sub3 {
     background-color: white;
-    width: 100%;
+    width: 100vw;
     transform: translateY(91vh);
-    height: 550px;
+    height: 750px;
 }
 
 .block3-header {
     font-size: 50px;
-    width: 100%;
+    width: 100vw;
     text-align: center;
-    line-height: 250px;
+    /* line-height: 250px; */
+    transform: translateY(50px)
 }
 
 .block3-list {
-    transform: translateY(-50px);
-    width: 100%;
+    font-size: 20px;
+    transform: translateY(75px);
+    width: 100vw;
     text-align: center;
     line-height: 40px;
 }
 
 .sub4 {
     background-color: rgb(248, 248, 248);
-    width: 100%;
+    width: 100vw;
     transform: translateY(91vh);
     height: 300px;
 }
@@ -156,13 +147,11 @@ li {
 .block4-header {
     transform: translateY(75px);
     font-size: 50px;
-    width: 100%;
+    width: 100vw;
     text-align: center;
-    /* line-height: 300px; */
 }
 .block4-list {
-    width: 100%;
-
+    width: 100vw;
     text-align: center;
 }
 
@@ -171,7 +160,7 @@ li {
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 100%;
+    width: 100vw;
     transform: translateY(91vh);
     height: 250px;
 }
@@ -179,7 +168,7 @@ li {
 .block5-header {
     transform: translateY(25px);
     font-size: 35px;
-    width: 100%;
+    width: 100vw;
     text-align: center;
 }
 
@@ -194,16 +183,169 @@ li {
     font-size: 25px;
     font-weight: bold;
     box-shadow: 0 0 4px 0 black;
+    transition: 0.1s ease-in;
     /* transform: translateY(75px) translateX(850px); */
 }
 
-/* @media screen and (max-width: 500px) {
+.contact-button:hover {
+    box-shadow: 0 0 8px 0 black;
+}
+
+.sub6 {
+    width: 100vw;
+    transform: translateY(91vh);
+    height: 300px;
+    background-color: rgb(248, 248, 248);
+}
+
+.sub7 {
+    background-color: white;
+    width: 100vw;
+    transform: translateY(91vh);
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block7-list {
+    font-size: 20px;
+    /* transform: translateY(-50px); */
+    width: 65vw;
+    text-align: center;
+    line-height: 40px;
+}
+
+.block7-header { 
+    font-size: 50px;
+    width: 100vw;
+    text-align: center;
+    transform: translateY(-50px);
+    /* line-height: 250px; */
+}
+
+.star-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.hiddeno {
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.showo {
+    opacity: 1;
+}
+
+.hiddens {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateX(-100%) translateY(50px);
+    transition: all 1s;
+}
+
+.shows {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0) translateY(50px);
+}
+
+.hiddenlist {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateX(-100%) translateY(-50px);
+    transition: all 1s;
+}
+
+.showlist {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0) translateY(-50px);
+}
+
+.c1 {
+    transition-delay: 200ms;
+}
+
+.c2 {
+    transition-delay: 300ms;
+}
+
+.c3 {
+    transition-delay: 400ms;
+}
+
+.c4 {
+    transition-delay: 500ms;
+}
+
+.c5 {
+    transition-delay: 600ms;
+}
+
+.c6 {
+    transition-delay: 700ms;
+}
+
+.c7 {
+    transition-delay: 900ms;
+}
+
+.c8 {
+    transition-delay: 1000ms;
+}
+
+.c9 {
+    transition-delay: 1100ms;
+}
+
+.c10 {
+    transition-delay: 1200ms;
+}
+
+.c11 {
+    transition-delay: 1300ms;
+}
+
+.c12 {
+    transition-delay: 1400ms;
+}
+
+.c13 {
+    transition-delay: 1500ms;
+}
+
+.c14 {
+    transition-delay: 1600ms;
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
     body {
-        background-image: url("house mobile.jpg");
-        background-size: cover;
+        background-color: rgba(110, 110, 110, 0.315);
+        background-image: url("HD-wallpaper-dream-house-luxury.jpg");
+        background-size: 100vw 100vh;
         background-repeat: no-repeat;
-        overflow: scroll;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        max-width: 100%;
     }
-} */
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        scale: 60%;
+    }
+}
 
 
