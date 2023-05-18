@@ -195,6 +195,12 @@ a {
     box-shadow: 0 0 8px 0 black;
 }
 
+.block8-header {
+    transform: translateX(50px);
+    text-align: center;
+    font-size: 20px;
+}
+
 .sub6 {
     width: 100vw;
     transform: translateY(91vh);
@@ -235,6 +241,20 @@ a {
     justify-content: center;
 }
 
+.sub8 {
+    width: 100vw;
+    transform: translateY(91vh);
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.block8-header {
+    font-size: 15px;
+}
+
 
 .hiddeno {
     opacity: 0;
@@ -272,59 +292,59 @@ a {
 }
 
 .c1 {
-    transition-delay: 200ms;
+    transition-delay: 100ms;
 }
 
 .c2 {
-    transition-delay: 300ms;
+    transition-delay: 150ms;
 }
 
 .c3 {
-    transition-delay: 400ms;
+    transition-delay: 200ms;
 }
 
 .c4 {
-    transition-delay: 500ms;
+    transition-delay: 250ms;
 }
 
 .c5 {
-    transition-delay: 600ms;
+    transition-delay: 300ms;
 }
 
 .c6 {
-    transition-delay: 700ms;
+    transition-delay: 450ms;
 }
 
 .c7 {
-    transition-delay: 900ms;
+    transition-delay: 500ms;
 }
 
 .c8 {
-    transition-delay: 1000ms;
+    transition-delay: 550ms;
 }
 
 .c9 {
-    transition-delay: 1100ms;
+    transition-delay: 600ms;
 }
 
 .c10 {
-    transition-delay: 1200ms;
+    transition-delay: 650ms;
 }
 
 .c11 {
-    transition-delay: 1300ms;
+    transition-delay: 700ms;
 }
 
 .c12 {
-    transition-delay: 1400ms;
+    transition-delay: 750ms;
 }
 
 .c13 {
-    transition-delay: 1500ms;
+    transition-delay: 800ms;
 }
 
 .c14 {
-    transition-delay: 1600ms;
+    transition-delay: 850ms;
 }
 
 
@@ -427,12 +447,12 @@ a {
         width: 100vw;
         text-align: center;
         /* line-height: 250px; */
-        transform: translateY(50px)
+        transform: translateY(0px)
     }
     
     .block3-list {
         font-size: 20px;
-        transform: translateY(80px) translateX(-45px);
+        transform: translateY(25px) translateX(-45px);
         width: 100vw;
         text-align: center;
         line-height: 40px;
@@ -466,6 +486,14 @@ a {
         width: 100vw;
         transform: translateY(88vh);
         height: 250px;
+        flex-direction: column;
+    }
+
+    .block8-header {
+        margin-top: 25px;
+        transform: translateX(0px);
+        text-align: center;
+        font-size: 100px;
     }
     
     .block5-header {
@@ -541,9 +569,19 @@ a {
         justify-content: center;
     }
 
-    .c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c13, .c14 {
+    /* .sub8 {
+        width: 100vw;
+        transform: translateY(91vh);
+        height: 200px;
+        background-color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    } */
+
+    /* .c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c13, .c14 {
         transition-delay: 0s;
-    }
+    } */
 }
 
 
