@@ -10,7 +10,7 @@
 
 body {
     background-color: rgba(110, 110, 110, 0.315);
-    background-image: url("house.jpg");
+    background-image: url("Images/house.jpg");
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     overflow-y: scroll;
@@ -119,6 +119,10 @@ a {
     width: 100vw;
     transform: translateY(91vh);
     height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .block3-header {
@@ -126,12 +130,12 @@ a {
     width: 100vw;
     text-align: center;
     /* line-height: 250px; */
-    transform: translateY(50px)
+    transform: translateY(0px);
 }
 
 .block3-list {
     font-size: 20px;
-    transform: translateY(75px);
+    transform: translateY(25px) translateX(-20px);
     width: 100vw;
     text-align: center;
     line-height: 40px;
@@ -330,7 +334,7 @@ a {
 @media screen and (max-width: 500px) {
     body {
         background-color: rgba(110, 110, 110, 0.315);
-        background-image: url("wp6701058.jpg");
+        background-image: url("Images/wp6701058.jpg");
         background-size: 100% 100vh;
         background-repeat: no-repeat;
         overflow-y: scroll;
@@ -508,7 +512,7 @@ a {
         background-color: white;
         width: 100vw;
         transform: translateY(88vh);
-        height: 100vh;
+        height: 844px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -527,7 +531,7 @@ a {
         font-size: 50px;
         width: 100vw;
         text-align: center;
-        transform: translateY(-50px);
+        transform: translateY(-40px);
         /* line-height: 250px; */
     }
     
@@ -535,30 +539,6 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: center;
-    }
-
-    .hiddeno {
-        transition: 0s;
-    }
-    
-    .showo {
-        transition: 0s;
-    }
-    
-    .hiddens {
-        transition: 0s;
-    }
-    
-    .shows {
-        transition: 0s;
-    }
-    
-    .hiddenlist {
-        transition: 0s;
-    }
-    
-    .showlist {
-        transition: 0s;
     }
 
     .c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12, .c13, .c14 {

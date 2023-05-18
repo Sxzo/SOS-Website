@@ -65,6 +65,7 @@ body {
     border-radius: 0px;
     border: none;
     border-bottom: 2px solid #e0e0e0fa;
+    
     background: none;
     outline: none;
     font-weight: bold;
@@ -74,11 +75,16 @@ body {
 
 .input-box::placeholder {
     color: white;
-
 }
 
 .desc-input {
     height: 75px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .submit-button {
@@ -96,11 +102,49 @@ body {
     color: #6991c7;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.199);
     background-color: white;
+    /* color: rgb(16, 190, 109) */
 }
 
 .submit-button:hover {
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.473);
 }
+
+/* TEMPORARY */
+.input-box, .form-header {
+    /* display: none; */
+}
+
+
+.post-header {
+    display: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 40px;
+    width: 100%;
+    justify-self: center;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 150px;
+    transform: translateY(150px);
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translateX(-1px);
+    }
+    
+    20%, 80% {
+      transform: translateX(2px);
+    }
+  
+    30%, 50%, 70% {
+      transform: translateX(-4px);
+    }
+  
+    40%, 60% {
+      transform: translateX(4px);
+    }
+  }
 
 @media screen and (max-width: 500px) {
     body {
