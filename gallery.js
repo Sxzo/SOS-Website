@@ -16,6 +16,7 @@ const modal = document.querySelector('.modal');
 const modalContent = document.querySelector('.modal-content');
 const prevBtn = document.querySelector('.prev');
 const nextBtn = document.querySelector('.next');
+const closeBtn = document.querySelector('.close');
 
 let currentIndex = 0;
 
@@ -32,6 +33,10 @@ prevBtn.addEventListener('click', () => {
 
 nextBtn.addEventListener('click', () => {
   navigate(1);
+});
+
+closeBtn.addEventListener('click', () => {
+  closeModal();
 });
 
 window.addEventListener('click', (event) => {
