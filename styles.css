@@ -357,9 +357,10 @@ a {
         background-image: url("Images/wp6701058.jpg");
         background-size: 100% 100vh;
         background-repeat: no-repeat;
-        overflow-y: scroll;
+        overflow-y: auto;
         overflow-x: hidden;
-        max-width: 100%;
+        /* max-width: 100%; */
+        
         /* scroll-behavior: smooth */
     }
     .right-redirect, .left-redirect {
@@ -375,10 +376,15 @@ a {
         width: 100vw;
         transform: translateY(25px);
     }
-    html, body {
-        max-width: 100%;
-        overflow-x: hidden;
+
+
+    html,
+    body {
+    height: 100%;
+    overflow-x: hidden;
+    transform: translate3d(0, 0, 0);
     }
+
 
     .sub1 {
         width: 100vw;
