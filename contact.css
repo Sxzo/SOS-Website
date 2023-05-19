@@ -32,6 +32,12 @@ body {
     color: rgb(255, 255, 255);
 }
 
+.center-redirect1 {
+    text-decoration: none;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+
 .center-redirect:hover, .left-redirect:hover, .right-redirect:hover {
     color: rgb(231, 238, 255)
 }
