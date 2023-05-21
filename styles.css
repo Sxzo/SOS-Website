@@ -359,7 +359,6 @@ a {
         background-repeat: no-repeat;
         overflow-y: auto; /* COMPLETE AND FUNCTIONING */ 
         overflow-x: hidden;
-        
     }
     .right-redirect, .left-redirect {
         display: none;
@@ -374,15 +373,6 @@ a {
         width: 100vw;
         transform: translateY(25px);
     }
-
-
-    html, body {
-        /* overflow-x: hidden; */
-        /* transform: translate3d(0, 0, 0); */
-        /* height: 100%;  */
-    }
-
-    /* max-width: 100%; COMPLETE AND FUNCTIONING, NOT NEEDED */
 
     .sub1 {
         width: 100vw;
