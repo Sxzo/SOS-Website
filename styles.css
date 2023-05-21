@@ -349,7 +349,9 @@ a {
 
 
 
-
+.subar {
+    display: none;
+}
 
 @media screen and (max-width: 500px) {
     body {
@@ -380,7 +382,23 @@ a {
         padding: 0 15px;
         height: 100%;
         width: 100vw;
-        transform: translateY(25px);
+        transform: translateY(40px);
+    }
+
+    .subar {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        transform: translateY(0px);
+        height: 300px;
+        /* background-color: white; */
+        justify-content: center;
+        white-space: nowrap;
+    }
+
+    .gallery-redirect, .contact-redirect {
+        color: white;
+        font-size: 25px;
     }
 
     .sub1 {
