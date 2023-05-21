@@ -355,7 +355,7 @@ a {
     body {
         background-color: rgba(110, 110, 110, 0.315);
         background-image: url("Images/mobile.jpg");
-        background-size: 100% 100vh;
+        background-size: 100vw 100vh;
         background-repeat: no-repeat;
         overflow-y: auto;
         overflow-x: hidden;
