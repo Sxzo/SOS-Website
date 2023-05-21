@@ -389,14 +389,24 @@ a {
         display: flex;
         flex-direction: row;
         width: 100vw;
-        transform: translateY(0px);
-        height: 300px;
-        /* background-color: white; */
+        /* transform: translateY(110vh); */
+        height: 10px;
+        background-color: none;
         justify-content: center;
+        align-items: center;
         white-space: nowrap;
+        transform: translateY(25px);
+        font-weight: bold;
     }
 
     .gallery-redirect, .contact-redirect {
+        height: 50px;
+        color: white;
+        font-size: 25px;
+        /* background-color: rgb(255, 255, 255); */
+    }
+
+    .divider {
         color: white;
         font-size: 25px;
     }
