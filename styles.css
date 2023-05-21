@@ -384,7 +384,7 @@ a {
         color: white;
         text-align: center;
         font-size: 50px;
-        transform: translateY(78vh);
+        transform: translateY(67vh);
       }
       .bounce {
         -moz-animation: bounce 2s infinite;
@@ -394,13 +394,13 @@ a {
       
       @keyframes bounce {
         0%, 20%, 50%, 80%, 100% {
-          transform: translateY(79vh);
+          transform: translateY(68vh);
         }
         40% {
-          transform: translateY(77vh);
+          transform: translateY(66vh);
         }
         60% {
-          transform: translateY(77.5vh);
+          transform: translateY(66.5vh);
         }
       }
     body {
