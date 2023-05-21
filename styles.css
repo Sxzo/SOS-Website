@@ -354,7 +354,7 @@ a {
 @media screen and (max-width: 500px) {
     body {
         background-color: rgba(110, 110, 110, 0.315);
-        background-image: url("Images/mobile.jpg");
+        background-image: url("Images/wp6701058.png");
         background-size: 100% 100vh; /* Not the problem */ 
         background-repeat: no-repeat;
         overflow-y: auto; /* Not the problem */ 
