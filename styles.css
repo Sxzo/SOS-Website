@@ -380,7 +380,7 @@ a {
         /* max-width: 100%; */
         overflow-x: hidden;
         transform: translate3d(0, 0, 0);
-        height: 100%; /* Fixes the lag*/
+        /* height: 100%; Fixes the lag */
         max-width: 100%;
     }
 
