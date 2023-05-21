@@ -65,7 +65,7 @@ a {
 
 .sub1 {
     width: 100vw;
-    transform: translateY(91vh);
+    transform: translateY(82vh);
     height: 300px;
     background-color: white;
 }
@@ -95,7 +95,7 @@ a {
 
 .sub2 {
     width: 100vw;
-    transform: translateY(91vh);
+    transform: translateY(82vh);
     height: 300px;
     background-color: rgb(248, 248, 248);
 }
@@ -117,7 +117,7 @@ a {
 .sub3 {
     background-color: white;
     width: 100vw;
-    transform: translateY(91vh);
+    transform: translateY(82vh);
     height: 750px;
     display: flex;
     flex-direction: column;
@@ -144,7 +144,7 @@ a {
 .sub4 {
     background-color: rgb(248, 248, 248);
     width: 100vw;
-    transform: translateY(91vh);
+    transform: translateY(82vh);
     height: 300px;
 }
 
@@ -165,7 +165,7 @@ a {
     align-items: center;
     background-color: white;
     width: 100vw;
-    transform: translateY(91vh);
+    transform: translateY(82vh);
     height: 250px;
 }
 
@@ -203,7 +203,7 @@ a {
 
 .sub6 {
     width: 100vw;
-    transform: translateY(91vh);
+    transform: translateY(82vh);
     height: 300px;
     background-color: rgb(248, 248, 248);
 }
@@ -211,7 +211,7 @@ a {
 .sub7 {
     background-color: white;
     width: 100vw;
-    transform: translateY(91vh);
+    transform: translateY(82vh);
     height: 550px;
     display: flex;
     justify-content: center;
@@ -243,7 +243,7 @@ a {
 
 .sub8 {
     width: 100vw;
-    transform: translateY(91vh);
+    transform: translateY(82vh);
     height: 100px;
     background-color: white;
     text-align: center;
@@ -351,6 +351,32 @@ a {
 
 .subar {
     display: none;
+}
+
+/* a { color: white; text-decoration: none; } */
+
+.arrow {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  transform: translateY(78vh);
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(79vh);
+  }
+  40% {
+    transform: translateY(77vh);
+  }
+  60% {
+    transform: translateY(77.5vh);
+  }
 }
 
 @media screen and (max-width: 500px) {
