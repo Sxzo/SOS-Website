@@ -243,7 +243,7 @@ hr {
         cursor: pointer;
         display: flex;
         justify-self: center;
-        transform: translateX(-382.5%) translateY(100px);
+        /* transform: translateX(-382.5%) translateY(100px); */
       }
 
 .prev,
