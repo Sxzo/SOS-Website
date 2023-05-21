@@ -367,7 +367,7 @@ a {
   animation: bounce 2s infinite;
 }
 
-/* @keyframes bounce {
+@keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(79vh);
   }
@@ -377,14 +377,14 @@ a {
   60% {
     transform: translateY(77.5vh);
   }
-} */
+}
 
 @media screen and (max-width: 500px) {
     .arrow {
         color: white;
         text-align: center;
         font-size: 65px;
-        transform: translateY(65vh);
+        transform: translateY(63vh);
       }
       .bounce {
         -moz-animation: bounce 2s infinite;
@@ -394,13 +394,13 @@ a {
       
       @keyframes bounce {
         0%, 20%, 50%, 80%, 100% {
-          transform: translateY(66vh);
-        }
-        40% {
           transform: translateY(64vh);
         }
+        40% {
+          transform: translateY(62vh);
+        }
         60% {
-          transform: translateY(64.5vh);
+          transform: translateY(62.5vh);
         }
       }
     body {
