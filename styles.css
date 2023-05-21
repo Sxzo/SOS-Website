@@ -355,7 +355,7 @@ a {
     body {
         background-color: rgba(110, 110, 110, 0.315);
         background-image: url("Images/wp6701058.png");
-        background-size: 100vw 100vh; /* COMPLETE AND FUNCTIONING */
+        /* background-size: 100vw 100vh; COMPLETE AND FUNCTIONING */
         background-repeat: no-repeat;
         overflow-y: auto; /* COMPLETE AND FUNCTIONING */ 
         /* overflow-x: hidden; */
@@ -366,7 +366,6 @@ a {
     html {
         /* transform: translate3d(0,0,0); */
         overflow-x: hidden;
-        overflow-y: hidden;
         height: 100vh;
     }
 
