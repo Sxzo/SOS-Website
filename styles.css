@@ -355,12 +355,11 @@ a {
     body {
         background-color: rgba(110, 110, 110, 0.315);
         background-image: url("Images/mobile.jpg");
-        background-size: 100% 100vh;
+        background-size: 100% 100vh; /* Not the problem */ 
         background-repeat: no-repeat;
-        overflow-y: scroll;
+        overflow-y: auto; /* Not the problem */ 
         overflow-x: hidden;
-        max-width: 100%;
-        /* scroll-behavior: smooth */
+        /* max-width: 100%; */ /* Not the problem */
     }
     .right-redirect, .left-redirect {
         display: none;
@@ -378,8 +377,11 @@ a {
 
 
     html, body {
-        max-width: 100%;
+        /* max-width: 100%; */
         overflow-x: hidden;
+        transform: translate3d(0, 0, 0);
+        height: 100%; /* Fixes the lag*/
+        max-width: 100%;
     }
 
 
