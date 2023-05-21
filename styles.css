@@ -357,9 +357,9 @@ a {
         background-image: url("Images/wp6701058.png");
         background-size: 100vw 100vh; /* COMPLETE AND FUNCTIONING */
         background-repeat: no-repeat;
-        overflow-y: auto; /* Not the problem */ 
+        overflow-y: auto; /* COMPLETE AND FUNCTIONING */ 
         overflow-x: hidden;
-        max-width: 100%; /* Not the problem */
+        /* max-width: 100%; Not the problem */
     }
     .right-redirect, .left-redirect {
         display: none;
@@ -377,7 +377,7 @@ a {
 
 
     html, body {
-        max-width: 100%;
+        /* max-width: 100%; */
         overflow-x: hidden;
         /* transform: translate3d(0, 0, 0); */
         /* height: 100%;  */
