@@ -359,7 +359,7 @@ a {
         background-repeat: no-repeat;
         overflow-y: auto; /* COMPLETE AND FUNCTIONING */ 
         overflow-x: hidden;
-        /* max-width: 100%; Not the problem */
+        
     }
     .right-redirect, .left-redirect {
         display: none;
@@ -377,12 +377,12 @@ a {
 
 
     html, body {
-        /* max-width: 100%; */
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
         /* transform: translate3d(0, 0, 0); */
         /* height: 100%;  */
     }
 
+    /* max-width: 100%; COMPLETE AND FUNCTIONING, NOT NEEDED */
 
     .sub1 {
         width: 100vw;
