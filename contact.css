@@ -152,6 +152,24 @@ input[type="number"]::-webkit-outer-spin-button {
     }
   }
 
+@media screen and (max-height: 700px) {
+    body {
+        overflow: hidden;
+        min-height: 150vh;
+        overflow-y: hidden;
+        scale: 100%;
+    }
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .form-box {
+        scale: 80%;
+        transform: translateY(-25px);
+    }
+}
+
 @media screen and (max-width: 500px) {
     body {
         overflow: hidden;
