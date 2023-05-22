@@ -68,7 +68,7 @@ submitButton.addEventListener(("click"), function() {
   formData.append('_autoresponse', 'true'); // Enable autoresponse email
 
   // Send the form data to FormSubmit.co
-  fetch('https://formsubmit.co/ajax/be5de6ef820c81a07380d1f9348f74d4', {
+  fetch('https://formsubmit.co/sosremodeling@aol.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
